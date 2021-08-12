@@ -1,8 +1,9 @@
-package com.study.dagger2.pure_dependency_lnjection
+package com.study.dagger2
 
 import android.util.Log
+import javax.inject.Inject
 
-class SIMCard(private val serviceProvider: ServiceProvider) {
+class SIMCard @Inject constructor(private val serviceProvider: ServiceProvider) {
 
 
     init {

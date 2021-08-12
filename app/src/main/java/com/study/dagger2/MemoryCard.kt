@@ -1,8 +1,9 @@
-package com.study.dagger2.pure_dependency_lnjection
+package com.study.dagger2
 
 import android.util.Log
+import javax.inject.Inject
 
-class MemoryCard {
+class MemoryCard @Inject constructor(){
     init {
         Log.i("TAG","Memort Card")
     }
