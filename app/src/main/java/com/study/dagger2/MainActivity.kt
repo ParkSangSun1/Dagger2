@@ -9,9 +9,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        DaggerSmartPhoneComponent.create()
+       /* DaggerSmartPhoneComponent.create()
             .getSmartPhone()
-            .makeACallWithRecording()
+            .makeACallWithRecording()*/
 
         //생성자 주입 방법, 함수를 사용하여 종속성 전달
 //        val smartPhone = SmartPhone(
