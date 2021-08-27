@@ -1,7 +1,8 @@
-package com.study.dagger2
+package com.study.dagger2.the_complete_android11_jetpack_bootcamp_for2021
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.study.dagger2.R
 
 class MainActivity : AppCompatActivity() {
     private lateinit var smartPhone: SmartPhone

@@ -1,4 +1,4 @@
-package com.study.dagger2
+package com.study.dagger2.the_complete_android11_jetpack_bootcamp_for2021
 
 import dagger.Module
 import dagger.Provides
@@ -7,7 +7,7 @@ import dagger.Provides
 class MemoryCardModule {
 
     @Provides
-    fun providesMemoryCard():MemoryCard{
+    fun providesMemoryCard(): MemoryCard {
         return MemoryCard()
     }
 }
